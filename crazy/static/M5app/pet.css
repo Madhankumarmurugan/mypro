@@ -1,0 +1,25 @@
+#pet{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card{
+    height: 350px;
+    cursor: pointer;
+}
+
+.card{
+    margin-left: 2px;
+}
+
+.nav-item{
+    transition: all 0.2s;
+    position: relative;
+}
+
+.nav-item:hover::after{
+   content: "";
+   height: 2px;
+   width: 100%;
+   background-color: green;
+}
